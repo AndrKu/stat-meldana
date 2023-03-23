@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статистика</title>
+    <link rel="stylesheet" href="stat.css">
+</head>
+
+<body>
+
+    <div class="ContWrap Cont1120">
+        <div class="SideBar">
+            <div class="LogoLeft hide"><a href="/"><img src="images/logo.png" alt=""></a></div>
+        </div>
+        <div class="Content">
+            <div class="HDmain_stat">Статистика</div>
+            <form>
+                <div class="HDmain_stat--input">
+                    <div class="date-style">
+                        <div class="elem_input">
+                            <div class="Field Field_stat td_border">
+                                <p>От</p>
+                                <input type="date" name="date_begin" value="">
+                            </div>
+                            <div class="Field Field_stat">
+                                <p>До</p>
+                                <input type="date" name="date_end" value="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stat-wrap">
+
+                    <div class="stat-res">
+                        <div class="title-general">
+                            <p>№ Задания</p>
+                            <p class="title-general--center">Статус</p>
+                            <p>Кол-во</p>
+                        </div>
+                        <!--  Новых регистраций-->
+                        <p class="td_border1">Новых регистраций</p>
+
+                        <div class="title-general--border4" style="grid-area: vstavkab_row;justify-content: flex-end;">
+                            <p>Кол-во</p>
+                        </div>
+                        <div class="td_border--massiv td_border1--vstavkab">
+                            <div class="line">
+                                <div class="td_border--flex">
+                                    <!--Задание-->
+                                </div>
+                                <div class="td_border--flex">
+                                </div>
+                                <div class="td_border--flex">
+                                    <!--Кол-во-->
+                                    <span class="border_num"><a href=""></a></span>
+                                    <span class="border_num"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!--  Новых задач-->
+                        <p class="td_border2">Новых задач</p>
+
+                        <div class="title-general--border4" style="grid-area: vstavkac_row;">
+                            <p>№ Задания</p>
+                            <p class="title-general--center2">Статус</p>
+                            <p>Кол-во</p>
+                        </div>
+                        <div class="td_border--massiv td_border2--vstavkac">
+                            <div class="line">
+                                <div class="td_border--flex">
+                                    <!--Задание-->
+
+                                    <a class="link_num" href=""><span></span></a>
+
+                                </div>
+                                <div class="td_border--flex">
+
+                                    <p class="border_status">
+                                        <span class="stat_green">Открыто</span>
+                                    </p>
+
+                                </div>
+                                <div class="td_border--flex">
+                                    <!--Кол-во-->
+                                    <span class="border_num"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  Активных задач-->
+                        <p class="td_border3">Активных задач</p>
+
+                        <div class="title-general--border4" style="grid-area: vstavkad_row;">
+                            <p>№ Задания</p>
+                            <p class="title-general--center2">Статус</p>
+                            <p>Кол-во</p>
+                        </div>
+                        <div class="td_border--massiv td_border3--vstavkad">
+                            <div class="line">
+                                <div class="td_border--flex">
+                                    <!--Задание-->
+
+                                    <a class="link_num" href=""><span></span></a>
+
+                                </div>
+                                <div class="td_border--flex">
+                                    <p class="border_status">
+                                        <span class="stat_orange">В работе</span>
+                                    </p>
+
+                                </div>
+                                <div class="td_border--flex">
+                                    <!--Кол-во-->
+                                    <span class="border_num"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Отклики-->
+                        <p class="td_border4">Кол-во откликов</p>
+
+                        <div class="title-general--border4" style="grid-area: vstavkae_row;">
+                            <p>№ Задания</p>
+                            <p class="title-general--center2">Статус</p>
+                            <p>Кол-во</p>
+                        </div>
+                        <div class="td_border--massiv td_border4--vstavkae">
+                            <div class="line">
+                                <div class="td_border--flex">
+                                    <!--Задание-->
+                                    <a class="link_num" href=""><span></span></a>
+
+                                    <a class="link_num" href=""><span></span></a>
+                                </div>
+                                <div class="td_border--flex">
+                                    <!--Статусы-->
+                                    <p class="border_status">
+                                        <span class="stat_green">Открыто</span>
+                                    </p>
+                                    <p class="border_status">
+                                        <span class="stat_orange">В работе</span>
+                                    </p>
+                                </div>
+                                <div class="td_border--flex">
+                                    <!--Кол-во-->
+                                    <span class="border_num"></span>
+                                    <span class="border_num"></span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Завершенных задач-->
+                        <p class="td_border5">Завершенных задач</p>
+
+                        <div class="title-general--border4" style="grid-area: vstavkah_row;">
+                            <p>№ Задания</p>
+                            <p class="title-general--center2">Статус</p>
+                            <p>Кол-во</p>
+                        </div>
+                        <div class="td_border--massiv td_border5--vstavkah">
+                            <div class="line">
+                                <div class="td_border--flex">
+                                    <!--Задание-->
+
+                                    <a class="link_num" href=""><span></span></a>
+
+                                </div>
+                                <div class="td_border--flex">
+                                    <!--Статусы-->
+
+                                    <p class="border_status">
+                                        <span class="stat_red">Завершено</span>
+                                    </p>
+
+                                </div>
+                                <div class="td_border--flex">
+                                    <!--Кол-во-->
+                                    <span class="border_num"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Всего пользователей-->
+                        <p class="td_border6">Всего пользователей</p>
+
+                        <div class="title-general--border4" style="grid-area: vstavkam_row;">
+                            <p></p>
+                            <p class="title-general--center2"></p>
+                            <p>Кол-во</p>
+                        </div>
+                        <div class="td_border--massiv td_border6--vstavkam">
+                            <div class="line">
+                                <div class="td_border--flex">
+                                    <!--Задание-->
+
+                                </div>
+                                <div class="td_border--flex">
+                                    <!--Статусы-->
+
+                                </div>
+                                <div class="td_border--flex">
+                                    <!--Кол-во-->
+                                    <span class="border_num"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stat_button">
+                        <button type="button" id="btn_cln" class="stat_button--sbros">Сбросить</button>
+                        <button type="submit" id="btn_run" class="stat_button--show">Показать</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
